@@ -1,9 +1,10 @@
 <?php
 
+use PHPUnit\Framework\TestCase;
 use Symfony\Component\Validator\ConstraintViolation;
 use Deblan\CsvValidator\Violation;
 
-class ViolationTest extends \PHPUnit_Framework_TestCase
+class ViolationTest extends TestCase
 {
     public function testViolation()
     {

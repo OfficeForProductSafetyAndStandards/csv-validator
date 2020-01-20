@@ -1,11 +1,13 @@
 <?php
 
+use PHPUnit\Framework\TestCase;
+
 /**
  * class ExampleTest.
  *
  * @author Simon Vieille <simon@deblan.fr>
  */
-class ExampleTest extends \PHPUnit_Framework_TestCase
+class ExampleTest extends TestCase
 {
     public function testExemple()
     {

@@ -1,18 +1,19 @@
 <?php
 
+use PHPUnit\Framework\TestCase;
 use Deblan\Csv\CsvParser;
 use Deblan\CsvValidator\Validator;
 use Symfony\Component\Validator\Validation;
 use Symfony\Component\Validator\Constraints\NotBlank;
 use Symfony\Component\Validator\Constraints\Email;
 
-class ValidatorTest extends \PHPUnit_Framework_TestCase
+class ValidatorTest extends TestCase
 {
     public function testViolation()
     {
         $parser = $this->generateParser('example.csv');
         $validator = $this->generateValidator($parser);
-        $this->setExpectedException('\RuntimeException');
+        $this->expectException('\RuntimeException');
         $validator->isValid();
     }
 
