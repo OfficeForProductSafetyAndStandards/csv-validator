@@ -1,7 +1,7 @@
 csv-validator
 =============
 
-[![](https://phpci.gitnet.fr/build-status/image/1?branch=master&label=PHPCensor&style=flat-square)](https://phpci.gitnet.fr/build-status/view/1)
+[![Build Status](https://ci.gitnet.fr/buildStatus/icon?job=Gitnet%2Fcsv-validator%2F3)](https://ci.gitnet.fr/job/Gitnet/job/csv-validator/job/3/)
 
 CSV validator library
 
