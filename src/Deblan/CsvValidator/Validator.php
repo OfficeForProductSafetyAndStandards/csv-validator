@@ -122,6 +122,7 @@ class Validator
         if ($this->parser !== $parser) {
             $this->parser = $parser;
             $this->errors = [];
+            $this->hasValidate = false;
         } elseif ($this->hasValidate) {
             return;
         }
